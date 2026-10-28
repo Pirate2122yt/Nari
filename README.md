@@ -110,12 +110,16 @@ Godot, the Android SDK and the JDK are found on `PATH` or through `GODOT`, `ANDR
 them in a `.env` file (see `.env.example`) if they aren't found. `just fdroid` builds the APK fully from source the
 way F-Droid does, and `flatpak/` has the Flathub manifest.
 
+Windows on ARM builds have a separate MSVC build path. See
+[Windows ARM64 build instructions](docs/windows-arm64.md) for prerequisites,
+the GitHub Actions workflow, and the hardware validation checklist.
+
 ## Credits
 
 - [Sonora](https://github.com/sonorahq/sonora), a native music client whose work on lyrics and music providers helped
   Nari a lot. Go check it out!
-- [Godot Engine](https://godotengine.org), [godot-rust](https://godot-rust.github.io), [FFmpeg](https://ffmpeg.org)
-  and [libopenmpt](https://lib.openmpt.org)
+- [Godot Engine](https://godotengine.org), [godot-rust](https://godot-rust.github.io), [FFmpeg](https://ffmpeg.org),
+  [dav1d](https://code.videolan.org/videolan/dav1d) and [libopenmpt](https://lib.openmpt.org)
 - The [Jost](https://github.com/indestructible-type/Jost) font and Google's
   [Material Symbols](https://fonts.google.com/icons)
 - Everyone in the Discord who tested Nari and made themes and plugins for it, THANK YOU SO MUCH!
